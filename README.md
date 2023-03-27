@@ -1,2 +1,2 @@
-# Kicad_Personal_Lib
+# Kicad Personal Library
 My personal library for Kicad
