@@ -1,4 +1,4 @@
-(footprint "SW_choc_v1_v2_HS_1u" (version 20220427) (generator pcbnew)
+(footprint "SW_choc_v1_v2_HS_1u_socket" (version 20220427) (generator pcbnew)
   (layer "F.Cu")
   (descr "Hotswap footprint for Kailh Choc style switches")
   (attr smd)
@@ -6,7 +6,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 31959b40-f62b-4536-86df-62a575b52872)
   )
-  (fp_text value "SW_choc_v1_v2_HS_1u" (at 0 -6 180) (layer "F.SilkS") hide
+  (fp_text value "SW_choc_v1_v2_HS_1u_socket" (at 0 -6 180) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 7501cf2b-f8b3-487e-ac4b-ebffcf77a19e)
   )
@@ -118,12 +118,12 @@
   (pad "1" thru_hole circle (at 5 3.75) (size 3.3 3.3) (drill 3) (layers *.Cu) (tstamp 85ee64db-7b4c-4fb7-9187-390429b8f734))
   (pad "1" smd rect (at 6.55 3.75) (size 1.2 2.6) (layers "F.Cu") (tstamp 2405b57b-23f7-4aa8-8a8d-b1583f7c6605))
   (pad "1" smd roundrect (at 8.245 3.75) (size 2.65 2.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1) (tstamp 7bca7e8e-9fb9-4379-93cd-7563fac7440f))
-  (pad "1" thru_hole circle (at 9.31 2.71) (size 0.5 0.5) (drill 0.25) (layers *.Cu) (tstamp 0f3ff467-1e9a-425c-90a5-27216e9d41b2))
-  (pad "1" thru_hole circle (at 9.31 3.75) (size 0.5 0.5) (drill 0.25) (layers *.Cu) (tstamp bfb3b6e9-cf74-48e2-b742-7d79ccd00aba))
-  (pad "1" thru_hole circle (at 9.31 4.79) (size 0.5 0.5) (drill 0.25) (layers *.Cu) (tstamp ef753ead-2e16-4f7e-9ed3-1bba5e11d868))
-  (pad "2" thru_hole circle (at -4.31 4.91) (size 0.5 0.5) (drill 0.25) (layers *.Cu) (tstamp 9c971595-a21f-4fe3-831e-b4e410b37839))
-  (pad "2" thru_hole circle (at -4.31 5.95) (size 0.5 0.5) (drill 0.25) (layers *.Cu) (tstamp 55418060-3d4d-4905-bdc2-3a80baed1641))
-  (pad "2" thru_hole circle (at -4.31 6.99) (size 0.5 0.5) (drill 0.25) (layers *.Cu) (tstamp 129da3dd-6807-489c-b620-859a4e32ae2f))
+  (pad "1" thru_hole circle (at 9.31 2.71) (size 0.5 0.5) (drill 0.25) (layers *.Cu) (tstamp 8944f2ef-6f7b-4564-ac09-675dde62595b))
+  (pad "1" thru_hole circle (at 9.31 3.75) (size 0.5 0.5) (drill 0.25) (layers *.Cu) (tstamp e22a87dd-5859-42c6-a333-5cd9c0ed1421))
+  (pad "1" thru_hole circle (at 9.31 4.79) (size 0.5 0.5) (drill 0.25) (layers *.Cu) (tstamp b513b213-fe79-45ee-a750-64d7071cf0b1))
+  (pad "2" thru_hole circle (at -4.31 4.91) (size 0.5 0.5) (drill 0.25) (layers *.Cu) (tstamp 93cbcb65-5114-4faa-80bf-68f61658ad07))
+  (pad "2" thru_hole circle (at -4.31 5.95) (size 0.5 0.5) (drill 0.25) (layers *.Cu) (tstamp 9a89a764-d19d-4a8a-9031-25f7fbc8e7bc))
+  (pad "2" thru_hole circle (at -4.31 6.99) (size 0.5 0.5) (drill 0.25) (layers *.Cu) (tstamp a8847cfa-e98f-4c7c-ba6f-26dc9104f4ef))
   (pad "2" smd roundrect (at -3.245 5.95) (size 2.65 2.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1) (tstamp bdea63f8-971a-4b66-83c5-e6b1c73f4c0a))
   (pad "2" smd rect (at -1.55 5.95 180) (size 1.2 2.6) (layers "F.Cu") (tstamp d122c288-b0e3-4e9a-8160-d00091c726b1))
   (pad "2" thru_hole circle (at 0 5.95) (size 3.3 3.3) (drill 3) (layers *.Cu) (tstamp c486791e-f839-4b9d-b468-46263a99d648))
@@ -132,7 +132,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 180))
   )
-  (model "E:/Duc/HorrorTroll_Kicad_Lib/3D_models/horrortroll_lib.3dshapes/kailh_choc.step"
+  (model "E:/Duc/HorrorTroll_Kicad_Lib/3D_models/horrortroll_lib.3dshapes/kailh_choc.step" hide
     (offset (xyz 0 0 -1.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -180 0 0))

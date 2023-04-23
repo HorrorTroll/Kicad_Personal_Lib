@@ -1,4 +1,4 @@
-(footprint "SW_MX_Choc_HS_1.25u" (version 20220427) (generator pcbnew)
+(footprint "SW_MX_Choc_HS_1.25u_socket" (version 20220427) (generator pcbnew)
   (layer "F.Cu")
   (descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
   (attr smd)
@@ -6,7 +6,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp abcea926-33d8-442d-a367-35cda3816ca5)
   )
-  (fp_text value "SW_MX_Choc_HS_1.25u" (at 0 7.874) (layer "F.SilkS") hide
+  (fp_text value "SW_MX_Choc_HS_1.25u_socket" (at 0 7.874) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 930a4898-6462-4f61-bbad-855140dc5618)
   )
@@ -226,12 +226,12 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 180 0))
   )
-  (model "E:/Duc/HorrorTroll_Kicad_Lib/3D_models/horrortroll_lib.3dshapes/CherryMX_Switch.step"
+  (model "E:/Duc/HorrorTroll_Kicad_Lib/3D_models/horrortroll_lib.3dshapes/CherryMX_Switch.step" hide
     (offset (xyz 0 0 -1.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 180 0))
   )
-  (model "E:/Duc/HorrorTroll_Kicad_Lib/3D_models/horrortroll_lib.3dshapes/Keycap_CHERRYMX.step"
+  (model "E:/Duc/HorrorTroll_Kicad_Lib/3D_models/horrortroll_lib.3dshapes/Keycap_CHERRYMX.step" hide
     (offset (xyz 0 0 -12.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 0))
