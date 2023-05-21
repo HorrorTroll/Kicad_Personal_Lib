@@ -88,7 +88,7 @@
   (pad "39" smd oval (at -7 -11 270) (size 2.8 1.5) (drill (offset -0.7 0)) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp bf1cb415-cc6c-402a-8eea-d83ca425fcb5))
   (pad "40" thru_hole circle (at -9 -11) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask) (tstamp 04a712a6-7734-4532-b4e5-6ac7cffac5d5))
   (pad "40" smd oval (at -9 -11 270) (size 2.8 1.5) (drill (offset -0.7 0)) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 33772a03-dafe-436a-b661-f2a2b6c9a943))
-  (model "${KICAD6_3DMODEL_DIR}/kbd.3dshapes/rp2040_bento.step"
+  (model "E:/Duc/HorrorTroll_Kicad_Lib/3D_models/horrortroll_lib.3dshapes/rp2040_bento.step"
     (offset (xyz -12.5 12.5 2.25))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

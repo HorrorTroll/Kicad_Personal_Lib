@@ -36,7 +36,7 @@
   (pad "26" thru_hole circle (at 0 -10.16 270) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask) (tstamp 343b00c0-04a9-4b5f-8a88-172af5e479c2))
   (pad "27" thru_hole circle (at 2.54 -10.16 270) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask) (tstamp ab5db964-43de-4704-b412-e5d1ca731727))
   (pad "28" thru_hole circle (at 5.08 -10.16 270) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask) (tstamp 1d473531-648d-4209-8818-f11f51edfc17))
-  (model "${KICAD6_3DMODEL_DIR}/kbd.3dshapes/tinybento.step"
+  (model "E:/Duc/HorrorTroll_Kicad_Lib/3D_models/horrortroll_lib.3dshapes/tinybento.step"
     (offset (xyz -9 11.725 2.75))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

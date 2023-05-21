@@ -5,7 +5,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     (tstamp d33725a3-b45e-4515-8b5f-bea024feec64)
   )
-  (fp_text value "Val**" (at 0 0) (layer "F.SilkS")
+  (fp_text value "Val**" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     (tstamp 14b5eb63-b342-4915-91a9-677b4ed052b2)
   )
