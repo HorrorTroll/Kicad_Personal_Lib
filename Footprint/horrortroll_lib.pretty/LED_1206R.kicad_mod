@@ -7,11 +7,11 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     (tstamp 04920c8e-65da-48c4-ba74-3cc59c3e818b)
   )
-  (fp_text value "6028R" (at -2.55 3.47) (layer "F.Fab") hide
+  (fp_text value "6028R" (at -2.55 3.47) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     (tstamp 3c19df09-e10e-4974-9a33-934a7eb0ce77)
   )
-  (fp_text user "1" (at 2.5 2.000001 90) (layer "B.SilkS") hide
+  (fp_text user "1" (at 2.5 2.000001 90) (layer "B.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     (tstamp 8053039a-5515-46fd-aa3b-5be68ddba2fa)
   )

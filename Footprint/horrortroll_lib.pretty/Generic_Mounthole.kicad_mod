@@ -1,0 +1,75 @@
+(footprint "Generic_Mounthole"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 3.2 0)
+		(layer "Dwgs.User")
+		(uuid "ba7a1f8b-0a4b-40e2-8189-197f78e04805")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Mount_M2"
+		(at 0 -3.1 0)
+		(layer "Dwgs.User")
+		(hide yes)
+		(uuid "91f63193-f848-4e43-b339-47bfa22c9de5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "80c6d56e-0342-47a7-a4f6-827f44adc01f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a8d38e0-2fa8-42d5-9955-e3b8dc1b1ceb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "10f5270b-552b-4c21-9326-adfb71c20590")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(clearance 0.5)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 3.5 3.5)
+		(drill 2.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e9c550af-509a-4739-8a66-058e22797bdf")
+	)
+)

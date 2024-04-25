@@ -1,0 +1,269 @@
+(footprint "CK_OS102011MA1QN1_flip"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "CuK miniature slide switch, OS series, SPDT, right angle, http://www.ckswitches.com/media/1428/os.pdf")
+	(tags "switch SPDT")
+	(property "Reference" "REF**"
+		(at 0 7.7 0)
+		(layer "F.SilkS")
+		(uuid "5a1b525e-a5b9-4f57-bf99-214106b35c1a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CK_OS102011MA1QN1_flip"
+		(at 1.7 -3.6 0)
+		(layer "F.Fab")
+		(uuid "2b6b2c4c-32ea-407a-ad97-69c3f0fe1b7b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a01ba199-8794-4f82-a3ce-3e099bdb857e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b4f01e9b-0b70-48a9-bd39-412d13f4b45f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e3303bd-7e4c-4e35-b0ab-3f6f7e8dca97")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.3 -2.3)
+		(end 6.3 -2.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d064ced1-5cec-45a6-a8f7-d2a25278c067")
+	)
+	(fp_line
+		(start -2.3 2.3)
+		(end -0.1 2.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bd88d2e5-b6a7-4742-9514-3662f40f74e4")
+	)
+	(fp_line
+		(start 4 2.3)
+		(end 6.3 2.3)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "105385ba-5589-4c24-9ff8-1c202554b5eb")
+	)
+	(fp_line
+		(start -3.7 -2.7)
+		(end 7.7 -2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c62eb0b5-c496-485c-8978-d6dca33d7084")
+	)
+	(fp_line
+		(start -3.7 6.7)
+		(end -3.7 -2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9e395f5f-e81a-4a02-a28e-ada8326c4173")
+	)
+	(fp_line
+		(start 7.7 -2.7)
+		(end 7.7 6.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ca8d2c5c-deb2-4fe0-9590-5e8b541756a4")
+	)
+	(fp_line
+		(start 7.7 6.7)
+		(end -3.7 6.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3cfd3a24-dd48-44d1-a5f8-578bc27f2621")
+	)
+	(fp_line
+		(start -2.3 -2.2)
+		(end -2.3 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e599abf3-ddae-4619-9311-03c94b066db8")
+	)
+	(fp_line
+		(start 0 6.2)
+		(end 0 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "31eb17aa-d325-4519-9b08-e27ab510b5a6")
+	)
+	(fp_line
+		(start 2 2.2)
+		(end 2 6.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "94601be0-0142-4b2f-8ba3-b1cd5b42ca96")
+	)
+	(fp_line
+		(start 2 6.2)
+		(end 0 6.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a7909e67-504d-42b8-bb50-c55954fa62a5")
+	)
+	(fp_line
+		(start 6.3 -2.2)
+		(end -2.3 -2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9d506ea4-fd7a-49d0-80da-d97ecce23b42")
+	)
+	(fp_line
+		(start 6.3 2.2)
+		(end -2.3 2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "49be0719-0250-43a4-b148-65e79909f6b8")
+	)
+	(fp_line
+		(start 6.3 2.2)
+		(end 6.3 -2.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bc0123e3-2cbb-4c98-8a6b-a86c9724f6ad")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.7 -1.7 180)
+		(layer "F.Fab")
+		(uuid "8131b796-4926-4be4-9b13-2bf5e5fb57e8")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "" thru_hole oval
+		(at -2.1 0 180)
+		(size 2.2 3.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "acf38548-4363-4de0-914f-8bc4a9f1fe4c")
+	)
+	(pad "" thru_hole oval
+		(at 6.1 0 180)
+		(size 2.2 3.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e60c47bf-ece0-4798-aa52-53fea44412fe")
+	)
+	(pad "1" thru_hole rect
+		(at 4 0 180)
+		(size 1.5 2.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b146d52f-4783-43e8-8e18-841fba34e012")
+	)
+	(pad "2" thru_hole oval
+		(at 2 0 180)
+		(size 1.5 2.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "542bb48d-7cf6-44ea-b66b-fea4b1a0fe81")
+	)
+	(pad "3" thru_hole oval
+		(at 0 0 180)
+		(size 1.5 2.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6a4913df-6a62-4f14-87f1-e22afc9ccf8b")
+	)
+	(model "E:/Duc/HorrorTroll_Kicad_Lib/3D_models/horrortroll_lib.3dshapes/OS102011MA1QN1.stp"
+		(offset
+			(xyz 21.5 -9.7 -20.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

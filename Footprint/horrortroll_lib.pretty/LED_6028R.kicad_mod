@@ -6,7 +6,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     (tstamp 04920c8e-65da-48c4-ba74-3cc59c3e818b)
   )
-  (fp_text value "6028R" (at -9.425 3.47) (layer "F.Fab") hide
+  (fp_text value "6028R" (at -4.05 4.15) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     (tstamp 3c19df09-e10e-4974-9a33-934a7eb0ce77)
   )
