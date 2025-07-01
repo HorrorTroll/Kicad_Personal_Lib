@@ -1,4 +1,4 @@
-(footprint "HOLE_M2_TH"
+(footprint "HOLE_M3"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -7,7 +7,7 @@
 		(at 0 -2.54 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "b748a00f-6410-4418-b06c-2ab4fbb16d1e")
+		(uuid "fa2a9c1f-a6a9-4b1e-9bd4-352b83d5e23b")
 		(effects
 			(font
 				(size 0.29972 0.29972)
@@ -19,7 +19,7 @@
 		(at 0 2.54 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "c7fce368-6ce6-4d7d-95b3-557811ed51e1")
+		(uuid "ad9af732-768a-4f6b-9a64-ccbfd16e9557")
 		(effects
 			(font
 				(size 0.29972 0.29972)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4405e372-37f5-4520-b5a4-b8cfd234a875")
+		(uuid "8744029e-6176-4a14-9a37-f6e2c6789e96")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c3e48db5-2e32-42d5-8d4c-1658a03bca4b")
+		(uuid "5c065d3f-9493-4cec-995b-edc6ba1f45d6")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -56,7 +56,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0969c3fa-4eab-4f9c-b6c6-b7eb157b9e3b")
+		(uuid "a326b1bb-dc4d-4586-aec3-ecebd1dda461")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -66,10 +66,10 @@
 	(attr through_hole)
 	(pad "" thru_hole circle
 		(at 0 0 90)
-		(size 4.7 4.7)
-		(drill 4.1)
+		(size 4 4)
+		(drill 3.2)
 		(layers "*.Cu" "*.Mask" "Dwgs.User")
 		(remove_unused_layers no)
-		(uuid "22f68e3d-db1f-4b93-8cda-95635b46472b")
+		(uuid "a05df7e1-2ce0-4ec3-87ce-5f4e55338ef6")
 	)
 )

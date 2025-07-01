@@ -1,0 +1,85 @@
+(footprint "Battery_Pad_Totem"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "57c174ba-a61c-419f-8914-75b460086d90")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Battery_Pad_Totem"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e759b110-61e1-4db9-b7cc-31a496547cf9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9dd6b043-dc9a-43b1-b57c-737042f8e918")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c23e6f9-d82d-48e2-b072-cdeab2bfbecf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a493de16-6a16-4db2-8503-ff070bc33b26")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" thru_hole circle
+		(at -2.5 0)
+		(size 2.5 2.5)
+		(drill 1.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f88d9e59-9f23-4ba1-bd5a-ffd36e66d540")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 2.5 2.5)
+		(drill 1.25)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "84da110f-ec4b-4453-b881-ec739a2d15a0")
+	)
+)

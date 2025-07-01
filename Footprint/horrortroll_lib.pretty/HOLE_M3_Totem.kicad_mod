@@ -1,0 +1,110 @@
+(footprint "HOLE_M3_Totem"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 3.2mm, M3, DIN965")
+	(tags "mounting hole 3.2mm m3 din965")
+	(property "Reference" "REF**"
+		(at 0 -3.8 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "bf6418ef-29ef-4aae-9748-6655c99e8fe2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HOLE_M3_Totem"
+		(at 0 3.8 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "64496e6f-7b1c-42b9-abf1-3bb927db3db1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e89def8e-d1cc-4d20-adeb-c8ae43986d4e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e1ccf3a2-52d5-4e03-a2df-d83e58a69d54")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c32f8631-cfc8-4f27-a8d9-c73f77bb0e8a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 2.8 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "f95b91b3-f938-49bc-95dc-9b062856fbe3")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.05 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "c5d23c53-d608-4b72-9510-507b0dc33d85")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "effe2315-3b11-4d06-a5cf-866b13ce8336")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" thru_hole circle
+		(at 0 0)
+		(size 5.6 5.6)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "eb54712c-8cfd-4283-a308-1a5f3fd5b216")
+	)
+)

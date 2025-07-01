@@ -1,9 +1,9 @@
-(footprint "IS31FL3743A"
+(footprint "IS31FL3763"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "QFN, 40 Pin (https://www.lumissil.com/assets/pdf/core/IS31FL3743A_DS.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py")
+	(descr "QFN, 40 Pin (https://www.lumissil.com/assets/pdf/core/IS31FL3763_DS.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py")
 	(tags "QFN NoLead")
 	(property "Reference" "REF**"
 		(at 0 -3.82 0)
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "IS31FL3743A"
+	(property "Value" "IS31FL3763"
 		(at 0 3.82 0)
 		(layer "F.Fab")
 		(uuid "66df292e-b891-496c-8692-dd7bcee775a8")

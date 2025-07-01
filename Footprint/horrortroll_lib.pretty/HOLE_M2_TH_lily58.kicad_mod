@@ -1,14 +1,75 @@
-(footprint "HOLE_M2_TH_lily58" (version 20220427) (generator pcbnew)
-  (layer "F.Cu")
-  (attr through_hole)
-  (fp_text reference "TH3" (at 0 -2.54) (layer "F.SilkS") hide
-      (effects (font (size 0.29972 0.29972) (thickness 0.0762)))
-    (tstamp 16249465-1a3f-42ab-ad31-baf8ccbd8cfa)
-  )
-  (fp_text value "HOLE" (at 0 2.54) (layer "F.SilkS") hide
-      (effects (font (size 0.29972 0.29972) (thickness 0.0762)))
-    (tstamp fff268a5-bc00-4c28-b569-492b039feb65)
-  )
-  (pad "" thru_hole circle (at 0 0 90) (size 4.9 4.9) (drill 4.7) (layers *.Cu *.Mask)
-    (clearance 0.3) (tstamp 351d0325-1d80-4494-9507-84074ef69bab))
+(footprint "HOLE_M2_TH_lily58"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "TH3"
+		(at 0 -2.54 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "16249465-1a3f-42ab-ad31-baf8ccbd8cfa")
+		(effects
+			(font
+				(size 0.29972 0.29972)
+				(thickness 0.0762)
+			)
+		)
+	)
+	(property "Value" "HOLE"
+		(at 0 2.54 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "fff268a5-bc00-4c28-b569-492b039feb65")
+		(effects
+			(font
+				(size 0.29972 0.29972)
+				(thickness 0.0762)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa77fc74-7f33-44ff-8dfd-206a24f9113e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d776b25c-2ad8-437f-a5a0-b0780f455178")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "44242b77-8247-43e1-b85b-0716496beaa8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "" thru_hole circle
+		(at 0 0 90)
+		(size 4.9 4.9)
+		(drill 4.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "351d0325-1d80-4494-9507-84074ef69bab")
+	)
 )

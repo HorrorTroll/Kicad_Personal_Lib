@@ -1,0 +1,182 @@
+(footprint "MSK12C02_Totem"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2.5 0 -90)
+		(layer "F.SilkS")
+		(uuid "28f4a93d-4d3c-45e4-a022-2295b7e2e423")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_SPDT"
+		(at 0 5.6 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45ff262d-6a13-4c0d-bd9b-e639f9ce6677")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -1.3 -3.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "19dc694a-6362-4959-a5bb-7fa6be7b3fc8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -1.3 -3.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "402b2a59-030b-4943-a023-c47add4d927b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -1.3 -3.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d59aadf-1a09-4cbe-a73e-8541fe342ec6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.5 3.5)
+		(end -1.5 -3.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2047efd4-b649-480c-839b-d213e62d6553")
+	)
+	(fp_line
+		(start 1.46 2.71)
+		(end 1.46 3.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d9d32b5d-866a-45e2-beed-e2c82e10fe6c")
+	)
+	(fp_line
+		(start 1.47 -2.72)
+		(end 1.47 -3.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a80091f5-7bc3-401a-82f3-446cea489446")
+	)
+	(fp_line
+		(start 1.47 -1.76)
+		(end 1.47 0.28)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "53abfdee-324c-47f7-96d3-de1aeda79aad")
+	)
+	(fp_line
+		(start 1.47 1.21)
+		(end 1.47 1.79)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8613445f-50cf-41a3-af09-04feed5a4f02")
+	)
+	(fp_rect
+		(start -1.5 -3.25)
+		(end 1.4 3.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "5bce492c-bddb-4ef8-8410-a85a7d65cd25")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 -1.5)
+		(size 0.9 0.9)
+		(drill 0.7)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "07d81378-45fb-48bd-b404-be87eae3e728")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 1.5)
+		(size 0.9 0.9)
+		(drill 0.7)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "0711abf1-4281-4401-bad7-03f417a47ef4")
+	)
+	(pad "1" smd rect
+		(at 1.9 -2.25 90)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a885bba4-3d6f-4821-b9cc-374fff125c4c")
+	)
+	(pad "2" smd rect
+		(at 1.9 0.75 90)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c939c156-1415-4467-9f33-2c1c85a8a096")
+	)
+	(pad "3" smd rect
+		(at 1.9 2.25 90)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c8a6dd74-2b7d-4e0a-b1fa-6b9afa45e802")
+	)
+	(pad "NC" smd rect
+		(at 0 -3.85)
+		(size 2.8 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b85b3204-c45d-4766-acb7-f224d1fbb69e")
+	)
+	(pad "NC" smd rect
+		(at 0 4.1)
+		(size 2.8 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "22f2b870-f137-41c6-bb8f-0894ea192eb8")
+	)
+	(model "E:/Duc/HorrorTroll_Kicad_Lib/3D_models/horrortroll_lib.3dshapes/MSK12C02.STEP"
+		(offset
+			(xyz 0 -0.1 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)
